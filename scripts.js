@@ -89,7 +89,7 @@ function addToCart(productId) {
 
   const cartProduct = `
   <div class="cart-product" id="id2>
-  <img class="w-100" src="${product.image}" alt="">
+  <img src="${product.image}" alt="">
   <h3>
   ${product.name} (Price: $<span id="product-price">${product.price})</span>
   </h3>
