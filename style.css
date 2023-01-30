@@ -63,6 +63,35 @@ product-area CSS
   border-radius: 6px;
 }
 
+/* cart product */
+
+.cart-product {
+  margin-bottom: 30px;
+  border: 1px solid #ededed;
+  padding: 10px;
+  position: relative;
+}
+
+.cart-product img {
+  width: 20%;
+}
+.cart-product h3 {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.cart-product h5 {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.cart-product button {
+  border: none;
+  background-color: #ededed;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
 /* 
 Footer area CSS
 */

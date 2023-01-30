@@ -49,10 +49,19 @@
       <section class="product-area">
         <div class="container">
           <div class="row">
-            <h3 class="text-center mb-4">Our Products</h3>
+            <div class="col-lg-9">
+              <h3 class="text-center mb-4">Our Products</h3>
+              <div class="row" id="all-products"></div>
+            </div>
+
+            <div class="col-lg-3">
+              <h3 class="text-center mb-4">
+                Cart Total: $<span id="cart-total"></span>
+              </h3>
+              <div id="cart-products"></div>
+            </div>
           </div>
-          <div class="row" id="all-product">
-            <!-- <div class="col-lg-4">
+          <!-- <div class="col-lg-4">
               <div class="single-product">
                 <img src="https://i.ibb.co/18LNCpX/product-one.jpg" alt="" />
                 <h5>$<span id="product-price">50</span></h5>
@@ -66,7 +75,6 @@
                 </button>
               </div>
             </div> -->
-          </div>
         </div>
       </section>
     </main>
